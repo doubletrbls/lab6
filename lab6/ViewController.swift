@@ -9,9 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var textField: UITextField!
+    var message: String?
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toSecond" {
+                    if let destinationVC = segue.destination as? SecondViewController {
+                        destinationVC.receivedMessage = textField.text
+                    }
+                }
+    }
+
+    @IBAction func sendMessage(_ sender: UIButton) {
+        print("sendMessage called")
+        performSegue(withIdentifier: "toSecond", sender: self)
     }
 
 

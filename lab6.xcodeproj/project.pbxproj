@@ -16,6 +16,7 @@
 		5443DCD42BB0A7A900D16EA2 /* lab6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443DCD32BB0A7A900D16EA2 /* lab6Tests.swift */; };
 		5443DCDE2BB0A7A900D16EA2 /* lab6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443DCDD2BB0A7A900D16EA2 /* lab6UITests.swift */; };
 		5443DCE02BB0A7A900D16EA2 /* lab6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443DCDF2BB0A7A900D16EA2 /* lab6UITestsLaunchTests.swift */; };
+		5443DCED2BB0A9D800D16EA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443DCEC2BB0A9D800D16EA2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5443DCD92BB0A7A900D16EA2 /* lab6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5443DCDD2BB0A7A900D16EA2 /* lab6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab6UITests.swift; sourceTree = "<group>"; };
 		5443DCDF2BB0A7A900D16EA2 /* lab6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5443DCEC2BB0A9D800D16EA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5443DCC52BB0A7A900D16EA2 /* Assets.xcassets */,
 				5443DCC72BB0A7A900D16EA2 /* LaunchScreen.storyboard */,
 				5443DCCA2BB0A7A900D16EA2 /* Info.plist */,
+				5443DCEC2BB0A9D800D16EA2 /* SecondViewController.swift */,
 			);
 			path = lab6;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5443DCED2BB0A9D800D16EA2 /* SecondViewController.swift in Sources */,
 				5443DCC12BB0A7A800D16EA2 /* ViewController.swift in Sources */,
 				5443DCBD2BB0A7A800D16EA2 /* AppDelegate.swift in Sources */,
 				5443DCBF2BB0A7A800D16EA2 /* SceneDelegate.swift in Sources */,
